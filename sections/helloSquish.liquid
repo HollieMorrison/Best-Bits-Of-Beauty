@@ -1,0 +1,21 @@
+<h1>{{ section.settings.title }}</h1>
+
+
+
+{% schema %}
+  {
+    "name": "something squish",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Enter text squish!"
+      }
+	],
+    "presets": [
+      {
+        "name": "Squish Section"
+      }
+    ]
+  }
+{% endschema %}
